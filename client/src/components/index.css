@@ -1,0 +1,66 @@
+
+.root {
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+@media only screen and (max-width: 600px) {
+    .root {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+  
+.container {
+    margin: 150px auto;
+    padding: 0 0 40px;
+}
+
+.bgImg {
+    background-image: url('./hand-painted-watercolor-background-with-sky-clouds-shape.jpg');
+    min-height: 100%;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.rootHome {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+  
+.containerHome {
+  margin: 100px auto;
+  padding: 0 0 40px;
+}
+
+.titleText {
+  text-align: center;
+}
+
+.rightBtn {
+    float: right;
+}
+
+.cardSpacing {
+    margin-top: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    .cardSpacing {
+        margin-top: 0px;
+    }
+    .respSpacing {
+        margin-top: 25px;
+    }
+}
+
+.errorColor {
+    color: red;
+}
+
+* {
+    font-family: Arial, sans-serif;
+}
