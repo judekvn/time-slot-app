@@ -12,7 +12,7 @@ const app = express();
 
 app.use(cors());
 
-app.use('/timeSlots', timeSlotsRoutes);
+app.use('/api/timeSlots', timeSlotsRoutes);
 
 const CONNECTION_URL = 'mongodb+srv://timeslot-app:timeslot-app@cluster0.0pknp.mongodb.net/timeslot?retryWrites=true&w=majority';
 const PORT = process.env.BACKEND_PORT|| 5000;

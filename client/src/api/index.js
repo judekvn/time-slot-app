@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const url = process.env.BACKEND_URL || 'http://localhost:4000';
+const url = process.env.BACKEND_URL || 'http://localhost:4000/api';
 
 export const getTimeSlots = () => axios.get(url + '/timeSlots');
 export const getTimeSlot = (id) => axios.get(`${url}/timeSlots/${id}`);
